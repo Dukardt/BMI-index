@@ -4,6 +4,6 @@ public class BmiService {
 
         double bmi = weight / ((height * height));
 
-        return weight / ((height * height));
+        return (int) bmi;
     }
 }
